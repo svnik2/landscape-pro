@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты — ЛандшафтПро</title>
+<meta name="description" content="Контакты ландшафтной студии: телефон, e-mail, режим работы. Заявка на бесплатный выезд и смету.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html">🌿 <span>Ландшафт</span>Про</a>
+    <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="projects.html">Проекты</a>
+      <a href="contacts.html" class="active">Контакты</a>
+    </nav>
+    <a class="phone" href="tel:+79990000000">+7 999 000-00-00</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" style="background:linear-gradient(120deg,rgba(19,40,28,.55),rgba(29,61,42,.75)),url('img/family.jpg') center/cover no-repeat;">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--accent-2);">Свяжитесь с нами</div>
+      <h1>Контакты</h1>
+      <p>Перезвоним в течение 30 минут, бесплатно выедем на участок и рассчитаем смету.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="contact-card">
+        <div class="info">
+          <h2 style="margin-bottom:18px;">Как нас найти</h2>
+          <div>📞 <b>Телефон:</b> <a href="tel:+79990000000">+7 999 000-00-00</a></div>
+          <div>✉️ <b>E-mail:</b> <a href="mailto:info@landscape.pro">info@landscape.pro</a></div>
+          <div>🕘 <b>Режим работы:</b> ежедневно 9:00–20:00</div>
+          <div>📍 <b>Офис:</b> г. Москва, ул. Садовая, 12</div>
+          <div>🚗 <b>Выезд:</b> по всей области, выезд на участок — бесплатно</div>
+          <div style="margin-top:18px; font-size:15px; color:var(--muted);">Удобнее написать? Используйте форму справа — ответим в тот же день.</div>
+        </div>
+        <form class="form" action="mailto:info@landscape.pro" method="post" enctype="text/plain">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name" name="Имя" placeholder="Как к вам обращаться?" required>
+          <label for="phone">Телефон</label>
+          <input type="tel" id="phone" name="Телефон" placeholder="+7 ___ ___-__-__" required>
+          <label for="msg">Что нужно сделать?</label>
+          <textarea id="msg" name="Сообщение" rows="4" placeholder="Например: озеленить участок 10 соток"></textarea>
+          <button class="btn solid" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>🌿 <b>Ландшафт</b>Про · ландшафтный дизайн участков</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="prices.html">Цены</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+    <div class="cr">Сайт создан с помощью DeepSeek Harness · Информация носит ознакомительный характер</div>
+  </div>
+</footer>
+
+</body>
+</html>

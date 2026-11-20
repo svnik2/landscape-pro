@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Цены на ландшафтные работы — ЛандшафтПро</title>
+<meta name="description" content="Прайс-лист на ландшафтные работы и готовые предложения по устройству участка: Базовый, Комфорт, Премиум.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html">🌿 <span>Ландшафт</span>Про</a>
+    <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="prices.html" class="active">Цены</a>
+      <a href="projects.html">Проекты</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="phone" href="tel:+79990000000">+7 999 000-00-00</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" style="background:linear-gradient(120deg,rgba(19,40,28,.55),rgba(29,61,42,.75)),url('img/hero.jpg') center/cover no-repeat;">
+    <div class="wrap">
+      <div class="kicker" style="color:var(--accent-2);">Прозрачные цены</div>
+      <h1>Цены на работы</h1>
+      <p>Стоимость зависит от площади и сложности участка. Точную смету составляем после бесплатного выезда на участок.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">Прайс-лист</div>
+      <h2>Стоимость работ</h2>
+      <p class="lead">Цены указаны «от» и уточняются после осмотра участка. Для постоянных клиентов — скидки на сезонные работы.</p>
+      <table>
+        <thead><tr><th>Вид работ</th><th>Ед. изм.</th><th>Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Ландшафтный проект (план, дендроплан, 3D)</td><td>участок</td><td class="price">от 25 000 ₽</td></tr>
+          <tr><td>Подготовка участка, планировка</td><td>м²</td><td class="price">от 500 ₽</td></tr>
+          <tr><td>Посев газона / укладка рулонного газона</td><td>м²</td><td class="price">от 350 ₽ / от 800 ₽</td></tr>
+          <tr><td>Посадка деревьев и кустарников</td><td>шт.</td><td class="price">от 1 200 ₽</td></tr>
+          <tr><td>Мощение дорожек и площадок</td><td>м²</td><td class="price">от 2 500 ₽</td></tr>
+          <tr><td>Дренаж участка и ливневая канализация</td><td>м.п.</td><td class="price">от 3 000 ₽</td></tr>
+          <tr><td>Садовое освещение</td><td>комплекс</td><td class="price">от 45 000 ₽</td></tr>
+          <tr><td>Автоматический полив</td><td>комплекс</td><td class="price">от 80 000 ₽</td></tr>
+          <tr><td>Устройство пруда / водоёма</td><td>комплекс</td><td class="price">от 150 000 ₽</td></tr>
+          <tr><td>Сезонное обслуживание сада</td><td>мес.</td><td class="price">от 15 000 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="center">
+        <div class="kicker">Готовые решения</div>
+        <h2>Предложения по устройству участка</h2>
+        <p class="lead">Выберите подходящий вариант — от уютного сада до полноценной зоны отдыха «под ключ».</p>
+      </div>
+      <div class="packs">
+        <div class="pack">
+          <h3>Базовый</h3>
+          <div class="from">от</div>
+          <div class="total">90 000 ₽</div>
+          <ul>
+            <li>Ландшафтный план участка</li>
+            <li>Укладка газона и цветники</li>
+            <li>Дорожки и зона входа</li>
+            <li>Посадка деревьев и кустарников</li>
+            <li>Уход в течение сезона</li>
+          </ul>
+          <a class="btn solid" href="contacts.html">Выбрать</a>
+        </div>
+        <div class="pack hot">
+          <h3>Комфорт</h3>
+          <div class="from">от</div>
+          <div class="total">250 000 ₽</div>
+          <ul>
+            <li>Всё из пакета «Базовый»</li>
+            <li>Терраса и зона барбекю</li>
+            <li>Садовое освещение</li>
+            <li>Автоматический полив</li>
+            <li>Плодовый сад и огород</li>
+          </ul>
+          <a class="btn solid" href="contacts.html">Выбрать</a>
+        </div>
+        <div class="pack">
+          <h3>Премиум</h3>
+          <div class="from">от</div>
+          <div class="total">600 000 ₽</div>
+          <ul>
+            <li>Всё из пакета «Комфорт»</li>
+            <li>Декоративный пруд с подсветкой</li>
+            <li>Пергола и зона отдыха</li>
+            <li>Дизайнерское озеленение</li>
+            <li>Годовое обслуживание сада</li>
+          </ul>
+          <a class="btn solid" href="contacts.html">Выбрать</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Рассчитать мой участок</h2>
+      <p>Оставьте заявку — бесплатно приедем, замерим и назовём точную стоимость.</p>
+      <a class="btn solid" href="contacts.html">Получить смету</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>🌿 <b>Ландшафт</b>Про · ландшафтный дизайн участков</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="prices.html">Цены</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+    <div class="cr">Сайт создан с помощью DeepSeek Harness · Информация носит ознакомительный характер</div>
+  </div>
+</footer>
+
+</body>
+</html>
